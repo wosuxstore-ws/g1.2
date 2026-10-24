@@ -1,0 +1,10 @@
+# generated in CI / by Flutter
+android/
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+*.iml
+.idea/

@@ -1,0 +1,17 @@
+name: block_bloom
+description: Block Bloom - a juicy, satisfying block puzzle game.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.2   # saves best score + settings
+  audioplayers: ^6.1.0         # sound effects (generated in code, no files needed)
+  google_mobile_ads: ^9.1.0    # AdMob: banner + interstitial (9.x = works with new Gradle 9)
+
+flutter:
+  uses-material-design: true
